@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+
+  }
+
+  .contactos{
+    width: 250px;
+    background-color: #f3ecec;
+    border-color: gray;
+    border-style: solid;
+    border-width: 0.5px;
+    
+  }
+  
+  .nertworking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+.img-logo { 
+    object-fit: contain;
+    padding: 1em;
+    width: 15em;
+    height: 15em;
+  }
+
+  .centerlogo{
+    display: flex;
+    justify-content: center;
+
+  }
+
+.mensaje h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: #1B1F21;
+
+  } 
+
+  .p1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #444749;
+  }
+
+  .p2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #444749;
+  }
+
+  .perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 15px;
+    padding: 8px;
+  }
+  .mariaimg{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+.perfiltexto {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444749;
+}
+
+.textoA {
+  font-size: 10px;
+  color: #acadaa;
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    background-color: #A491D2;
+    color: white;
+    margin: 25px;
+    padding: 10px 27px 10px 27px;
+    border: none;
+}
+
+.btn:hover {
+  background-color: #CDC3E6;
+}
+.btn:focus {
+  background-color: #BEC1BB;
+}
+
+.iconos{
+display: flex;
+flex-direction: row;
+align-items: center;
+color: #a8a8a8;
+}
+
+.fa-message {
+  margin: 0px 12px 0px 15px ;
+}
+
+.fa-bars {
+  margin: 0px 10px 0px 3px ;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 13px;
+    padding: 4px;
+}
+
+.imagenes{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
